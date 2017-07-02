@@ -1,0 +1,34 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add express sinon chai
+
+PATH: 
+  E:\Madhav\ConEmuPack.161022\ConEmu\Scripts;E:\Madhav\ConEmuPack.161022;E:\Madhav\ConEmuPack.161022\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\OpenVPN\bin;C:\Users\Admin\Anaconda3;C:\Users\Admin\Anaconda3\Scripts;C:\Users\Admin\Anaconda3\Library\bin;C:\Ruby23\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\Admin\AppData\Local\Android\sdk\platform-tools;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Yarn\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files\Heroku\bin
+
+Yarn version: 
+  0.24.0-20170429.1953
+
+Node version: 
+  7.9.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "NodeJS-Test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.62.173:443
+      at Object.exports._errnoException (util.js:1050:11)
+      at exports._exceptionWithHostPort (util.js:1073:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
