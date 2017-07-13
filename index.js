@@ -8,4 +8,4 @@ app.listen(1000, function(){
 })
 
 
-require('./test')
+require('./app')

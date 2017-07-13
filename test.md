@@ -31,6 +31,7 @@ Each unit test has the following Structure
 * [Unit Test in javascript mocha chai - sitepoint](https://www.sitepoint.com/unit-test-javascript-mocha-chai/)
 * [Node Hero unit test tutorials - rising stack](https://blog.risingstack.com/node-hero-node-js-unit-testing-tutorial/)
 * [Mocha Chai frontend JS - codeship](https://blog.codeship.com/mocha-js-chai-sinon-frontend-javascript-code-testing-tutorial/)
+* [Mongoose Model Tests - Codeutopia](https://codeutopia.net/blog/2016/06/10/mongoose-models-and-unit-tests-the-definitive-guide/)
 
 ### Getting Started
 

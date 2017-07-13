@@ -1,13 +1,15 @@
-const fs = require('fs')
-const request = require('request')
+import fs from 'fs'
+import chai from 'chai'
+import request from 'request'
 
-const expect = require('chai').expect
-const assert = require('chai').assert
+import webpage from '../app/webpage'
+import example from '../app/example'
 
 
-const webpage = require('./webpage')
-const example = require('./example')
+const expect = chai.expect
+const assert = chai.assert
 
+// Test with some file operation
 describe('The webpage module', () =>{
 	it('saves the content', function * () {
 		const url = 'google.com'
@@ -29,28 +31,34 @@ describe('The webpage module', () =>{
 	})
 })
 
-describe('Array', () => {
-  describe('#indexOf()', () => {
+
+// Test with some basic arthemetic
+describe('Simple arthemetic test', () => {
+  describe('# indexOf ', () => {
     it('should return -1 when the value is not present', () => {
       assert.equal(-1, [1,2,3].indexOf(5))
     })
   })
-})
 
-describe('Add two numbers', () => {
-	it('Should add two numbers', () => {
-		const res = example.add(3,1)
-		expect(res).to.be.a('Number', 4 )
+	describe('# Add two numbers', () => {
+		it('Should add two numbers', () => {
+			const res = example.add(3,1)
+			expect(res).to.be.a('Number', 4 )
+		})
 	})
-})
 
-
-describe('Contains first and last name', () => {
-	it('Should verify first and last name', () => {
-		const res = example.setName({}, 'Madhav Poudel')
-		expect(res).to.be.a('object').to.include({
-			firstName: 'Madhav',
-			lastName: 'Poudel'
+	describe('# Object include', () => {
+		it('Should verify first and last name', () => {
+			const res = example.setName({}, 'Madhav Poudel')
+			expect(res).to.be.a('object').to.include({
+				firstName: 'Madhav',
+				lastName: 'Poudel'
+			})
 		})
 	})
 })
+
+
+
+
+	
