@@ -1,5 +1,6 @@
 # NodeJS Test
 [![Build Status](https://travis-ci.org/l3lackcurtains/NodeJS-Mocha-Chai-Test.svg?branch=master)](https://travis-ci.org/l3lackcurtains/NodeJS-Mocha-Chai-Test)
+[![Coverage Status](https://coveralls.io/repos/github/l3lackcurtains/NodeJS-Mocha-Chai-Test/badge.svg?branch=master)](https://coveralls.io/github/l3lackcurtains/NodeJS-Mocha-Chai-Test?branch=master)
 
 
 Test steps:
