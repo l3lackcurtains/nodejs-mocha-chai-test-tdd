@@ -13,7 +13,7 @@ describe('Mongoose Database test', () => {
 
 	before((done) => {
 		mongoose.Promise = require('bluebird')
-		mongoose.connect('mongodb://localhost/testDB')
+		mongoose.connect('mongodb://madhavp:madhav7@ds133981.mlab.com:33981/bakapp')
 		const db = mongoose.connection
 		db.on('error', () => console.error.bind(console, 'connection error!!'))
 			.once('open', () => {
