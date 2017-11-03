@@ -4,7 +4,6 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/l3lackcurtains/NodeJS-Mocha-Chai-Test/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/l3lackcurtains/NodeJS-Mocha-Chai-Test/?branch=master)
 [![Known Vulnerabilities](https://snyk.io/test/github/l3lackcurtains/nodejs-mocha-chai-test/badge.svg)](https://snyk.io/test/github/l3lackcurtains/nodejs-mocha-chai-test)
 
-
 Test steps:
 
 * Unit Tests
@@ -37,32 +36,3 @@ Each unit test has the following Structure
 * [Node Hero unit test tutorials - rising stack](https://blog.risingstack.com/node-hero-node-js-unit-testing-tutorial/)
 * [Mocha Chai frontend JS - codeship](https://blog.codeship.com/mocha-js-chai-sinon-frontend-javascript-code-testing-tutorial/)
 * [Mongoose Model Tests - Codeutopia](https://codeutopia.net/blog/2016/06/10/mongoose-models-and-unit-tests-the-definitive-guide/)
-
-### Getting Started
-
-```javascript
-describe('Array', () => {
-  it('should start empty', () => {
-    // Test implementation goes here
-  })
-
-  // We can have more its here
-})
-```
-
-describe is used to group individual tests, it is used to create a actual test.
-
-__Writing the test code__
-```javascript
-var assert = chai.assert
-
-describe('Array', () => {
-  it('should start empty', () => {
-    var arr = []
-    assert.equal(arr.length, 0)
-  })
-})
-```
-
-assert takes two parameter ( actual value, expected value), we use expect assertion for getting more flexibility.
-
