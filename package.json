@@ -13,7 +13,7 @@
   "dependencies": {
     "bluebird": "^3.5.0",
     "express": "^4.16.0",
-    "mongoose": "^4.11.14",
+    "mongoose": "^5.7.5",
     "request": "^2.84.0"
   },
   "devDependencies": {
